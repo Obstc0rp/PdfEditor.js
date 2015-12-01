@@ -1,0 +1,25 @@
+
+
+nav.navbar {
+    margin-bottom: 0;
+}
+li#hiddenFileUpload {
+    display: none;
+}
+
+section#mainSection {
+    overflow-y: auto;
+    background-color: #fcfcfc;
+}
+
+div#pdfViewer canvas {
+    margin: 10px;
+    width: 350px;
+    height: auto;
+    border: 1px solid grey;
+}
+
+footer#footer {
+    height: 52px;
+    background-color: grey;
+}

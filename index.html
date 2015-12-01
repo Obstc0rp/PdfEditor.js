@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Editor JS</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- JS -->
+    <script src="bower_components/jspdf/dist/jspdf.debug.js"></script>
+    <script src="bower_components/pdfjs-bower/dist/compatibility.js"></script> <!-- is this necessary? -->
+    <script src="bower_components/pdfjs-bower/dist/pdf.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</head>
+<body>
+
+<header id="optionsHeader">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">PDF Editor JS</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a id="openPdfBtn" href="#">Open PDF</a></li>
+                    <li><a id="addPdfBtn" href="#">Add PDF</a></li>
+                    <li><a id="clearBtn" href="#">Clear</a></li>
+                    <li id="hiddenFileUpload"><input type="file" name="pdfUpload" id="pdfUpload" /></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a id="saveAsBtn" href="#">Save as...</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section id="mainSection">
+    <div id="pdfViewer"></div>
+</section>
+
+<footer id="footer">
+    <p>Footer content goes here</p>
+</footer>
+
+</body>
+</html>

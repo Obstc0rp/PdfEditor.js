@@ -1,0 +1,26 @@
+{
+  "name": "PdfEditor.js",
+  "version": "0.0.1",
+  "authors": [
+    "Obstc0rp"
+  ],
+  "description": "This is a light weight PDF editor.",
+  "main": "index.html",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "pdf",
+    "editor",
+    "jspdf",
+    "pdf.js"
+  ],
+  "license": "open source",
+  "homepage": "obstc0rp.github.io",
+  "private": true,
+  "dependencies": {
+    "jspdf": "~1.0.272",
+    "pdfjs-bower": "~1.0.233",
+    "bootstrap": "*"
+  }
+}
